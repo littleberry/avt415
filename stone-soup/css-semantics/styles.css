@@ -1,0 +1,95 @@
+/* @imports ****************************************/
+
+/* RESET styles ************************************/
+/* HTML5 reset */
+article, aside, details, figcaption, figure, footer, header, nav, section {
+    display: block;
+}
+
+
+/* BASE styles ************************************/
+html {}
+body {
+
+}
+main {
+	
+}
+
+a {}
+
+p {
+
+}
+
+/* LAYOUT styles *********************************/
+#site-header { /* Layout/positioning for site header */
+
+}
+#site-nav {
+
+}
+#site-footer {
+
+}
+
+/* MODULE styles ********************************/
+/* Fonts, colors, etc. for site header */
+.site-header {
+
+}
+.site-header-title {
+
+}
+.site-header-sub-title {
+
+}
+
+/* Fonts, colors, etc. for site nav */
+.site-nav {
+
+}
+.site-nav-list {
+
+}
+.site-nav-list-item {
+
+}
+.site-nav-link:link,
+.site-nav-link:visited {
+
+}
+.site-nav-link:hover,
+.site-nav-link:focus {
+
+}
+.site-nav-link:active {
+
+}
+
+/* Fonts, colors, etc. for posts */
+.post {
+
+}
+.post-header {
+
+}
+.post-title {
+
+}
+.post-sub-title {
+
+}
+.post-description {
+
+}
+.post-content {
+
+}
+.post-content-title {
+
+}
+.post-footer {
+
+}
+/* Fonts, colors, etc. specific for recipe posts */

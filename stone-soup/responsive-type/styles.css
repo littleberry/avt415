@@ -1,0 +1,153 @@
+/* @imports ****************************************/
+@import 'https://fonts.googleapis.com/css?family=Roboto+Slab:700|Roboto:300,400,700';
+
+/* RESET styles ************************************/
+/* HTML5 reset */
+article, aside, details, figcaption, figure, footer, header, nav, section {
+    display: block;
+}
+
+
+/* BASE styles ************************************/
+html {
+    font-size: 100%; /* Assume 16px default size */
+}
+body {
+    font-family: Roboto, "Trebuchet MS", Tahoma, Arial, Helvetica, sans-serif;
+}
+h1, h2, h3 {
+    font-family: "Roboto Slab", "Trebuchet MS", Tahoma, Arial, Helvetica, sans-serif;
+}
+main {}
+
+a {}
+
+p {
+    
+}
+
+/* LAYOUT styles *********************************/
+#site-header { /* Layout/positioning for site header */
+    
+}
+#site-nav {
+
+}
+#site-footer {
+
+}
+
+/* MODULE styles ********************************/
+/* Fonts, colors, etc. for site header */
+.site-header {
+    font-size: 1rem;
+}
+.site-header-title {
+    font-size: 3em;
+}
+.site-header-sub-title {
+    font-size: 2em;
+}
+
+/* Fonts, colors, etc. for site nav */
+.site-nav {
+
+}
+.site-nav-list {
+
+}
+.site-nav-list-item {
+
+}
+.site-nav-link:link,
+.site-nav-link:visited {
+
+}
+.site-nav-link:hover,
+.site-nav-link:focus {
+
+}
+.site-nav-link:active {
+
+}
+
+/* Fonts, colors, etc. for posts */
+.post {
+
+}
+.post-header {
+
+}
+.post-title {
+    font-size: 1.75em;
+}
+.post-sub-title {
+
+}
+.post-description {
+
+}
+.post-content {
+
+}
+.post-content-title {
+
+}
+.post-footer {
+
+}
+/* Fonts, colors, etc. specific for recipe posts */
+
+
+/* STATE styles ********************************/
+/* Small display, portrait */
+@media only screen and (min-width: 20em) {
+    html {
+        
+    }
+}
+
+
+/* Small display, landscape */
+@media only screen and (min-width:37em) {
+    html {
+        
+    }
+}
+
+/* Tablet, portrait */
+@media only screen and (min-width: 48em) {
+    html {
+        
+    }
+}
+
+/* Tablet, small laptop, landscape */
+@media only screen and (min-width: 64em) {
+    html {
+        
+    }
+}
+
+/* Large tablet, laptop, landscape */
+@media only screen and (min-width: 77em) {
+    html {
+        
+    }
+}
+
+/* Large desktop, small TV */
+@media only screen and (min-width: 99em) {
+    html {
+        
+    }
+}
+
+/* Really big display: Large TV */
+@media only screen and (min-width: 118em) {
+    html {
+        
+    }
+}
+
+
