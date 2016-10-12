@@ -12,3 +12,8 @@ If you don't know what you are doing: Use the big green button that says 'Clone 
 * Semantics
 * CSS Semantics
 * Responsive Type
+
+## Flexible files
+
+* Box sizing/CSS box model
+* Flexbox
