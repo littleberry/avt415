@@ -1,0 +1,179 @@
+/* @imports ****************************************/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,800,800italic);
+
+/* RESET styles ************************************/
+/* HTML5 reset */
+article, aside, details, figcaption, figure, footer, header, nav, section {
+    display: block;
+}
+
+
+/* BASE styles ************************************/
+html {
+    font-size: 100%; /* Assume 16px default size */
+}
+
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  color: #ff0055;
+  font-weight: 800;
+}
+
+main {
+  padding: 0 5%;
+}
+
+
+/* MODULE styles ********************************/
+/* Fonts, colors, etc. for site header */
+
+.site-header {
+  text-align: center;
+  margin: 1em 0 3em 0;
+}
+
+.site-header > h1 {
+  font-size: 4em;
+  text-transform: uppercase;
+  font-kerning: normal;
+  margin: 0;
+}
+
+.site-header > h2 {
+  color: #005580;
+  font-size: 1.625em;
+  letter-spacing: .025em;
+  margin: 0;
+}
+
+/* Fonts, colors, etc. for site nav */
+.site-nav {
+  width: 100%;
+  background-color: #3399cc;
+}
+
+.site-nav-list {
+  list-style: none;
+  padding: 0;
+}
+
+.site-nav-item {
+
+}
+
+.site-nav-link:link,
+.site-nav-link:visited {
+	display: inline-block; /* Forces parent li height to match anchor tag's height */
+	color: white;
+	font-size: 1.25em;
+	font-weight: 600;
+	padding: .5em 1em;
+	text-decoration: none;
+}
+
+.site-nav-link:hover,
+.site-nav-link:active {
+  color: #3399cc;
+  background-color: #cceeff;
+  border: 0.0625em solid #9edbfa;
+}
+
+/* Fonts, colors, etc. for posts */
+.post {
+  padding: 1em;
+  border: 0.0625em solid #9edbfa;
+  border-radius: 0 .5em .5em .5em;
+  margin: 1em 0em;
+}
+
+.post-title {
+  margin: 0 0 .25em 0;
+}
+
+.post .thumbnail {
+	
+}
+
+.post .thumbnail img {
+  width: 100%;
+  height: auto;
+  border: 0.0625em solid #005580;
+  border-radius: 0 .5em .5em .5em;
+}
+
+.post.featured {
+  width: 100%;
+}
+
+/* Fonts, colors, etc. for site footer */
+
+.site-footer {
+  font-style: italic;
+  font-weight: 600;
+  text-align: center;
+  background-color: #cceeff;
+  padding: 1em;
+  margin: 2em 0 0 0;
+  border-top: 0.125em solid #ff99bb;
+}
+
+/* STATE styles ********************************/
+/* Small display, portrait */
+@media only screen and (min-width: 20em) {
+    body {
+        
+    }
+}
+
+
+/* Small display, landscape */
+@media only screen and (min-width:37em) {
+    body {
+        
+    }
+}
+
+/* Tablet, portrait */
+@media only screen and (min-width: 48em) {
+    body {
+        
+    }
+}
+
+/* Tablet, small laptop, landscape */
+@media only screen and (min-width: 64em) {
+    body {
+        
+    }
+}
+
+/* Large tablet, laptop, landscape */
+@media only screen and (min-width: 77em) {
+    body {
+        
+    }
+}
+
+/* Large desktop, small TV */
+@media only screen and (min-width: 99em) {
+    body {
+        
+    }
+}
+
+/* Really big display: Large TV */
+@media only screen and (min-width: 118em) {
+    body {
+        
+    }
+}
+
+
+
