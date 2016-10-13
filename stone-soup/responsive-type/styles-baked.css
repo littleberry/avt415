@@ -1,0 +1,219 @@
+/***************************************************
+STYLESHEET NOTES:
+
+	* Completed or "baked" version of the responsive-type demo
+	* Styles are organized based on SMACSS methodology
+	* Styles are "mobile first". Check bottom of stylesheet to see how styles are adjusted for different breakpoints.
+
+
+	# Objectives
+		1. Describe how a progressive design approach can benefit web typography.
+		2. Describe how type display is affected by context, device size, and screen resolution.
+		3. Demonstrate use of relative units (em, rem, %, vh, vw, vmin) for setting fluid or flexible type.
+		4. Demonstrate use of media queries to adjust type sizing based on design breakpoints at different device sizes and contexts.
+		
+	# Typographic Scale
+		* Ratio: 1:1.5 (2:3 scale or perfect fifth)
+		* Double-stranded scale
+			* Base font size: 1em:16px (browser default)
+			* Base layout unit: 6em:96px (based on 1/10 column width of 60em/960px layout width)
+			* Scale numbers calculated from http://modularscale.com
+
+	# Styles applied for demonstration:
+		* font-family and weight
+			* Major headers: Roboto Slab 700
+			* Minor headers: Roboto 700
+			* Body text: Roboto 300
+		* padding
+			* Padding is applied to body and some elements to adjust white space and give "breathing room" for the text.
+		* margin
+			* Margins, particularly around headers, are adjusted to reinforce the visual hierarchy
+
+		
+
+***************************************************/
+
+/* @imports ****************************************/
+@import 'https://fonts.googleapis.com/css?family=Roboto+Slab:700|Roboto:300,400,700';
+
+/* RESET styles ************************************/
+/* HTML5 reset */
+article, aside, details, figcaption, figure, footer, header, nav, section {
+    display: block;
+}
+
+
+/* BASE styles ************************************/
+html {
+}
+body {
+    font-family: Roboto, "Trebuchet MS", Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 100%; /* Assume 16px default size */
+    font-weight: 300;
+    padding: 0 2%;
+}
+h1, h2, h3 {
+    font-family: "Roboto Slab", "Trebuchet MS", Tahoma, Arial, Helvetica, sans-serif;
+}
+main {
+
+}
+
+a {}
+
+p {
+    
+}
+
+/* LAYOUT styles *********************************/
+#site-header { /* Layout/positioning for site header */
+    
+}
+#site-nav {
+
+}
+#site-footer {
+
+}
+
+/* MODULE styles ********************************/
+/* Fonts, colors, etc. for site header */
+.site-header {
+
+}
+.site-header-title {
+    font-size: 2.25em;
+    margin: 0;
+}
+.site-header-sub-title {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+/* Fonts, colors, etc. for site nav */
+.site-nav {
+	margin: 1.778em 0;
+}
+.site-nav-list {
+
+}
+.site-nav-list-item {
+	font-size: 1.5em;
+}
+.site-nav-link:link,
+.site-nav-link:visited {
+
+}
+.site-nav-link:hover,
+.site-nav-link:focus {
+
+}
+.site-nav-link:active {
+
+}
+
+/* Fonts, colors, etc. for posts */
+.post {
+
+}
+.post-header {
+
+}
+.post-title {
+    font-size: 2.25em;
+    margin: 0;
+}
+.post-sub-title {
+	font-size: 1.778em;
+	margin: 0;
+}
+.post-description {
+	font-size: 1.185em;
+	font-weight: 400;
+}
+.post-content {
+
+}
+.post-content-title {
+	font-size: 1.5em;
+	margin: 1.5em 0 0 0;
+}
+.post-footer {
+
+}
+/* Fonts, colors, etc. specific for recipe posts */
+
+
+/* STATE styles ********************************/
+/* Small display, portrait */
+@media only screen and (min-width: 20em) {
+    body {
+        
+    }
+}
+
+
+/* Small display, landscape */
+@media only screen and (min-width:37em) {
+    body {
+        
+    }
+    .site-header-title {
+	    font-size: 2.667em;
+	}
+	.site-header-sub-title {
+	    font-size: 1.778em;
+	}
+}
+
+/* Tablet, portrait */
+@media only screen and (min-width: 48em) {
+	.site-header-title {
+	    font-size: 3.375em;
+	}
+	.site-header-sub-title {
+	    font-size: 2.25em;
+	}
+}
+
+/* Tablet, small laptop, landscape */
+@media only screen and (min-width: 64em) {
+    body {
+        font-size: 112.5%;
+        padding: 1% 5%;
+    }
+    p {
+	    max-width: 50em;
+    }
+	.site-header-title {
+	    font-size: 4em;
+	}
+	.site-header-sub-title {
+	    font-size: 2.667em;
+	}
+}
+
+/* Large tablet, laptop, landscape */
+@media only screen and (min-width: 77em) {
+    body {
+        font-size: 125%;
+    }
+}
+
+/* Large desktop, small TV */
+@media only screen and (min-width: 99em) {
+    body {
+        font-size: 131.25%;
+    }
+}
+
+/* Really big display: Large TV */
+@media only screen and (min-width: 118em) {
+    body {
+        font-size: 143.75%;
+        font-weight: 400;
+    }
+    
+}
+
+
