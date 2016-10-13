@@ -1,0 +1,5 @@
+# Files not tracked:
+# 	.DS_Store (macos system file)
+
+.DS_Store
+**/.DS_Store
